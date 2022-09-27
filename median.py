@@ -12,10 +12,11 @@ def median(list):
 while True:
     try:
         numbers = [float(value) for value in input().split(",")]
-        median(numbers)
     except ValueError:
         print("Some input could not be converted to a number!")
     else:
         break
+
+median(numbers)
 
 
